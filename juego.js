@@ -83,7 +83,7 @@ function loop() {
                 y: Math.floor(Math.random()*tuberiaNorte.height) - tuberiaNorte.height
             })
         }
-        //COLISIONES
+        
         if(personaje.x + bird.width >= tuberias[i].x &&
             personaje.x <= tuberias[i].x + tuberiaNorte.width &&
             (personaje.y <= tuberias[i].y + tuberiaNorte.height || 
